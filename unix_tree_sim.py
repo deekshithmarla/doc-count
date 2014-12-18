@@ -17,7 +17,7 @@ def list_dir(path, level=1):
             print "%s" % os.path.basename(file)
             list_dir(file, level+1)
         else:
-            print "Trying to print"+file+"from the directory"+os.getcwd()
+            print  "Trying to print"+file+"from the directory"+os.getcwd()
 
 if __name__ == '__main__':
     list_dir(sys.argv[1])
