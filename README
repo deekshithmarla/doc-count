@@ -12,4 +12,3 @@ $python gen_doc_class_input.py <path to a directory with *.txt files> -f <output
 
 note : the first argument should always be the path, and -f should always be followed by the file name to write to.
 
-for any further discussions please mail me at <eerpini@gmail.com>
