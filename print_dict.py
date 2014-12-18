@@ -10,6 +10,7 @@ def print_d(dict, asarray=0, file_handle=sys.stdout):
         for value in sorted(dict.keys()):
             print >>file_handle, "%d " % dict[value],
         print >>file_handle, " ]"
+        
     else:
         for value in sorted(dict.keys()):
             print >>file_handle, " %10s   :   %3d" % (value, dict[value])
